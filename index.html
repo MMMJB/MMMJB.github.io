@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Extension</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="JS/window.js" defer></script>
+    <script src="JS/styles.js" defer></script>
+</head>
+<body>
+    <div id="window" draggable="true">
+        <div id="nav-parent">
+            <a>Styling</a>
+            <a class="menu-item selected">Themes</a>
+            <a class="menu-item">Main</a>
+            <a class="menu-item">Menu</a>
+            <a class="menu-item">Layout</a>
+            <a class="menu-item">Settings</a>
+        </div>
+        <div id="info-parent">
+            <div class="info-item active">
+                <a class="header">Premade Themes</a>
+                <div class="card-container">
+                    <div class="card">
+                        <input type="radio">
+                    </div>
+                    <div class="card">
+                        <input type="radio">
+                    </div>
+                    <div class="card">
+                        <input type="radio">
+                    </div>
+                    <div class="card">
+                        <input type="radio">
+                    </div>
+                    <div class="card">
+                        <input type="radio">
+                    </div>
+                    <div class="card">
+                        <input type="radio">
+                    </div>
+                </div>
+            </div>
+            <div class="info-item">
+                <a class="header">Main Page</a>
+                <div class="option">
+                    <a>Background color</a>
+                    <input type="color" value="#ffffff">
+                </div>
+                <div class="option">
+                    <a>Card color</a>
+                    <input type="color" value="#ffffff">
+                </div>
+                <div class="option">
+                    <a>Text color</a>
+                    <input type="color" value="#ffffff">
+                </div>
+                <div class="option">
+                    <a>Secondary text color</a>
+                    <input type="color" value="#ffffff">
+                </div>
+                <div class="option">
+                    <a>Header color</a>
+                    <input type="color" value="#ffffff">
+                </div>
+            </div>
+            <div class="info-item">
+                <a class="header">Side Menu</a>
+                <div class="option">
+                    <a>Background color</a>
+                    <input type="color" value="#ffffff">
+                </div>
+                <div class="option">
+                    <a>Logo color</a>
+                    <input type="color" value="#ffffff">
+                </div>
+                <div class="option">
+                    <a>Logo URL</a>
+                    <input type="url">
+                </div>
+                <div class="option">
+                    <a>Selected tab color</a>
+                    <input type="color" value="#ffffff">
+                </div>
+                <div class="option">
+                    <a>Hovered tab color</a>
+                    <input type="color" value="#ffffff">
+                </div>
+                <div class="option">
+                    <a>Icon fill color</a>
+                    <input type="color" value="#ffffff">
+                </div>
+            </div>
+            <div class="info-item">
+                <a class="header">Page Layout</a>
+                <div class="option">
+                    <a>Show header</a>
+                    <input type="checkbox" checked>
+                </div>
+                <div class="option">
+                    <a>Show logo</a>
+                    <input type="checkbox" checked>
+                </div>
+                <div class="option">
+                    <a>Card view</a>
+                    <input type="checkbox" checked>
+                </div>
+                <div class="option">
+                    <a>Show color overlays</a>
+                    <input type="checkbox" checked>
+                </div>
+                <div class="option">
+                    <a>Show to-do list</a>
+                    <input type="checkbox" checked>
+                </div>
+                <div class="option">
+                    <a>Show feedback</a>
+                    <input type="checkbox" checked>
+                </div>
+            </div>
+            <div class="info-item" id="settings">
+                <a class="header">Settings</a>
+                <div class="option">
+                    <a>Client background color</a>
+                    <input type="color" name="--background-color">
+                    <input type="checkbox" name="--background-color">
+                </div>
+                <div class="option">
+                    <a>Client background url</a>
+                    <input type="url" name="--background-url">
+                    <input type="checkbox" name="--background-url">
+                </div>
+                <div class="option">
+                    <a>Client option color</a>
+                    <input type="color" name="--background-color-elevated">
+                    <input type="checkbox" name="--background-color-elevated">
+                </div>
+                <div class="option">
+                    <a>Client border color</a>
+                    <input type="color" name="--border-color">
+                    <input type="checkbox" name="--border-color">
+                </div>
+                <div class="option">
+                    <a>Client accent color</a>
+                    <input type="color" name="--accent-color">
+                    <input type="checkbox" name="--accent-color">
+                </div>
+                <div class="option">
+                    <a>Client sidebar font color</a>
+                    <input type="color" name="--font-color">
+                    <input type="checkbox" name="--font-color">
+                </div>
+                <div class="option">
+                    <a>Client main font color</a>
+                    <input type="color" name="--font-color-main">
+                    <input type="checkbox" name="--font-color-color">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
